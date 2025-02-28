@@ -1,0 +1,17 @@
+version: "3.8"
+
+services:
+  jupyter-lab:
+    container_name: jupyter-lab
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8888:8888"
+    environment:
+      JUPYTER_ENABLE_LAB: "yes"
+      JUPYTER_TOKEN: "ida2025"
+    volumes:
+      - .:/app  # Map project folder to container working directory
+      - /app/__pycache__  # Exclude __pycache__ directories
+    command: ["jupyter", "lab", "--ip=0.0.0.0", "--allow-root", "--no-browser"]
