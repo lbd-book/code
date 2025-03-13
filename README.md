@@ -9,7 +9,7 @@ This repository contains the accompanying Jupyter notebooks for the book titled 
 The following table indicates which notebook accompanies which section of the book chapter:
 
 | Chapter Title                             | Section | Notebook                                                                                           |
-|-------------------------------------------|---------|----------------------------------------------------------------------------------------------------|
+|:------------------------------------------|:--------|:---------------------------------------------------------------------------------------------------|
 | Text Mining for Closed Discovery          | 5.3.1   | [Closed Discovery](https://github.com/lbd-book/code/blob/main/notebooks/01_closed_discovery.ipynb) |
 | Text Mining for Closed Discovery          | 5.3.2   | [CrossBee](https://github.com/lbd-book/code/blob/main/notebooks/03_mini_crossbee.ipynb)            |
 | Outlier-based Closed Discovery            | 6.8     | [OntoGen](https://github.com/lbd-book/code/blob/main/notebooks/04_mini_ontogen.ipynb)              |
