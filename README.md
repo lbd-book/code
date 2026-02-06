@@ -4,8 +4,6 @@ This repository contains the accompanying Jupyter notebooks for the book titled 
 
 ## Notebooks
 
-**Notebooks are currently being updated and will be uploaded in the coming days**
-
 The following table indicates which notebook accompanies which section of the book chapter:
 
 | Chapter Title                             | Section | Notebook                                                                                           |
@@ -15,5 +13,5 @@ The following table indicates which notebook accompanies which section of the bo
 | Outlier-based Closed Discovery            | 6.8     | [OntoGen](https://github.com/lbd-book/code/blob/main/notebooks/04_mini_ontogen.ipynb)              |
 | Concept-based approach to open discovery  | 7.2     | [Open Discovery](https://github.com/lbd-book/code/blob/main/notebooks/02_open_discovery.ipynb)     |
 | Semantic and Outlier-based Open Discovery | 6       | [RaJoLink](https://github.com/lbd-book/code/blob/main/notebooks/05_mini_rajolink.ipynb)            |
-| Network-based Closed Discovery            | 7       | Not yet live                                                                                       |
-| Embedding-based Closed Discovery          | 9       | Not yet live                                                                                       |
+| Network-based Closed Discovery            | 7       | [Link Prediction](https://github.com/lbd-book/code/blob/main/notebooks/06_link_prediction.ipynb)   |
+| Embedding-based Closed Discovery          | 9       | [Find Genes](https://github.com/lbd-book/code/blob/main/notebooks/07_find_genes.ipynb)             |
